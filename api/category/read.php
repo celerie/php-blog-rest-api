@@ -17,6 +17,7 @@
     $result = $category->read();
     //Get row count
     $num = $result->rowCount();
+    //added comment
 
     //Check if any posts
     if($num > 0){
